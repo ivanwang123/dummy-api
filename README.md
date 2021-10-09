@@ -2,6 +2,8 @@
 
 All your randomly-generated needs in one API
 
+Base URL: https://needrandom.netlify.app/api
+
 ## 🖼 Image
 
 Endpoint: `/image`
