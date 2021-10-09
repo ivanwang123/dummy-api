@@ -2,7 +2,7 @@
 
 All your randomly-generated needs in one API
 
-## Image
+## 🖼 Image
 
 **Endpoint:** `/image`
 
@@ -15,7 +15,7 @@ All your randomly-generated needs in one API
 
 ---
 
-## Profile Pic
+## 🤳 Profile Pic
 
 **Endpoint:** `/profilepic`
 
@@ -27,7 +27,7 @@ All your randomly-generated needs in one API
 
 ---
 
-## User
+## 👨‍🦲 User
 
 **Endpoint:** `/user`
 
@@ -35,7 +35,7 @@ All your randomly-generated needs in one API
 
 ---
 
-## Text
+## 📃 Text
 
 **Endpoint:** `/text`
 
@@ -49,7 +49,7 @@ All your randomly-generated needs in one API
 
 ---
 
-## Testimonial
+## 🗣 Testimonial
 
 **Endpoint:** `/testimonial`
 
@@ -58,7 +58,7 @@ All your randomly-generated needs in one API
 
 ---
 
-## Quote
+## 🗨 Quote
 
 **Endpoint:** `/quote`
 
