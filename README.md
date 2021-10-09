@@ -1,40 +1,56 @@
 # Random API
 
-## /image
+All your randomly-generated data in one API
 
-API: https://picsum.photos
+## Image
 
-**Parameters**
-
-- `width`: number (default: 100)
-- `height`: number (default: 100)
-
-## /profilepic
-
-API: https://avatars.dicebear.com
+**Endpoint:** `/image`
 
 **Parameters**
 
-- `sprite`: male, female, human, identicon, initials, bottts, avataaars, jdenticon, gridy, micah (default: human)
+- `width`: number *(default: 100)*
+- `height`: number *(default: 100)*
 
-## /user
+**API:** https://picsum.photos
 
-API: https://randomuser.me
+## Profile Pic
 
-## /text
-
-API: https://loripsum.net, https://corporatelorem.kovah.de, https://devlorem.kovah.de
+**Endpoint:** `/profilepic`
 
 **Parameters**
 
-- `style`: lorem, article, book (default: lorem)
-- `paragraphs`: number (default: 1)
-- `length` (only for style=lorem): short, medium, long, verylong (default: short)
+- `sprite`: male, female, human, identicon, initials, bottts, avataaars, jdenticon, gridy, micah *(default: human)*
 
-## /testimonial
+**API:** https://avatars.dicebear.com
 
-API: https://testimonialapi.toolcarton.com
+## User
 
-## /quote
+**Endpoint:** `/user`
 
-API: https://github.com/lukePeavey/quotable
+**API:** https://randomuser.me
+
+## Text
+
+**Endpoint:** `/text`
+
+**Parameters**
+
+- `style`: lorem, article, book *(default: lorem)*
+- `paragraphs`: number *(default: 1)*
+- `length` (only for style=lorem): short, medium, long, verylong *(default: short)*
+
+**API:** https://loripsum.net, https://corporatelorem.kovah.de, https://devlorem.kovah.de
+
+## Testimonial
+
+**Endpoint:** `/testimonial`
+
+**API**
+- https://testimonialapi.toolcarton.com
+
+## Quote
+
+**Endpoint:** `/quote`
+
+**API**
+- https://github.com/lukePeavey/quotable
