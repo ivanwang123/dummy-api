@@ -1,4 +1,4 @@
-# Random API
+# Random API 🎲
 
 All your randomly-generated data in one API
 
