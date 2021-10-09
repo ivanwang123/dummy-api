@@ -1,6 +1,6 @@
 # Random API 🎲
 
-All your randomly-generated data in one API
+All your randomly-generated needs in one API
 
 ## Image
 
