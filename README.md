@@ -2,8 +2,6 @@
 
 All your randomly-generated data in one API
 
-<br>
-
 ## Image
 
 **Endpoint:** `/image`
@@ -15,7 +13,7 @@ All your randomly-generated data in one API
 
 **API:** https://picsum.photos
 
-<br>
+---
 
 ## Profile Pic
 
@@ -27,7 +25,7 @@ All your randomly-generated data in one API
 
 **API:** https://avatars.dicebear.com
 
-<br>
+---
 
 ## User
 
@@ -35,7 +33,7 @@ All your randomly-generated data in one API
 
 **API:** https://randomuser.me
 
-<br>
+---
 
 ## Text
 
@@ -49,7 +47,7 @@ All your randomly-generated data in one API
 
 **API:** https://loripsum.net, https://corporatelorem.kovah.de, https://devlorem.kovah.de
 
-<br>
+---
 
 ## Testimonial
 
@@ -58,7 +56,7 @@ All your randomly-generated data in one API
 **API**
 - https://testimonialapi.toolcarton.com
 
-<br>
+---
 
 ## Quote
 
