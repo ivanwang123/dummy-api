@@ -49,7 +49,7 @@ All your randomly-generated needs in one API
 
 ---
 
-## 🗣 Testimonial
+## 👍 Testimonial
 
 **Endpoint:** `/testimonial`
 
