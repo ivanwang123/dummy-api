@@ -4,63 +4,51 @@ All your randomly-generated needs in one API
 
 ## 🖼 Image
 
-**Endpoint:** `/image`
+Endpoint: `/image`
 
-**Parameters**
+Parameters:
 
-- `width`: number *(default: 100)*
-- `height`: number *(default: 100)*
+- `width` - number *(default: 100)*
+- `height` - number *(default: 100)*
 
-**API:** https://picsum.photos
-
----
+API: https://picsum.photos
 
 ## 🤳 Profile Pic
 
-**Endpoint:** `/profilepic`
+Endpoint: `/profilepic`
 
-**Parameters**
+Parameters:
 
-- `sprite`: male, female, human, identicon, initials, bottts, avataaars, jdenticon, gridy, micah *(default: human)*
+- `sprite` - male, female, human, identicon, initials, bottts, avataaars, jdenticon, gridy, micah *(default: human)*
 
-**API:** https://avatars.dicebear.com
-
----
+API: https://avatars.dicebear.com
 
 ## 👨‍🦲 User
 
-**Endpoint:** `/user`
+Endpoint: `/user`
 
-**API:** https://randomuser.me
-
----
+API: https://randomuser.me
 
 ## 📃 Text
 
-**Endpoint:** `/text`
+Endpoint: `/text`
 
-**Parameters**
+Parameters:
 
-- `style`: lorem, article, book *(default: lorem)*
-- `paragraphs`: number *(default: 1)*
-- `length` (only for style=lorem): short, medium, long, verylong *(default: short)*
+- `style` - lorem, article, book *(default: lorem)*
+- `paragraphs` - number *(default: 1)*
+- `length` *(only for style=lorem)* - short, medium, long, verylong *(default: short)*
 
-**API:** https://loripsum.net, https://corporatelorem.kovah.de, https://devlorem.kovah.de
-
----
+API: https://loripsum.net, https://corporatelorem.kovah.de, https://devlorem.kovah.de
 
 ## 👍 Testimonial
 
-**Endpoint:** `/testimonial`
+Endpoint: `/testimonial`
 
-**API**
-- https://testimonialapi.toolcarton.com
-
----
+API: https://testimonialapi.toolcarton.com
 
 ## 🗨 Quote
 
-**Endpoint:** `/quote`
+Endpoint: `/quote`
 
-**API**
-- https://github.com/lukePeavey/quotable
+API: https://github.com/lukePeavey/quotable
