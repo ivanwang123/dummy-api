@@ -2,7 +2,7 @@
 
 All your dummy data needs in one API
 
-Base URL: https://needrandom.netlify.app/api
+Base URL: https://needdummy.netlify.app/api
 
 ## 🖼 Image
 
@@ -13,7 +13,7 @@ Parameters:
 - `width` - number *(default: 100)*
 - `height` - number *(default: 100)*
 
-Example: https://needrandom.netlify.app/api/image?width=200&height=300
+Example: https://needdummy.netlify.app/api/image?width=200&height=300
 ```
 https://picsum.photos/200/300
 ```
@@ -28,7 +28,7 @@ Parameters:
 
 - `sprite` - male, female, human, identicon, initials, bottts, avataaars, jdenticon, gridy, micah *(default: human)*
 
-Example: https://needrandom.netlify.app/api/profilepic?sprite=identicon
+Example: https://needdummy.netlify.app/api/profilepic?sprite=identicon
 ```
 https://avatars.dicebear.com/api/identicon/98.svg
 ```
@@ -39,7 +39,7 @@ API: https://avatars.dicebear.com
 
 Endpoint: `/user`
 
-Example: https://needrandom.netlify.app/api/user
+Example: https://needdummy.netlify.app/api/user
 
 ```
 {
@@ -112,7 +112,7 @@ Parameters:
 - `paragraphs` - number *(default: 1)*
 - `length` *(only for style=lorem)* - short, medium, long, verylong *(default: short)*
 
-Example: https://needrandom.netlify.app/api/text?style=article&paragraphs=2
+Example: https://needdummy.netlify.app/api/text?style=article&paragraphs=2
 ```
 That’s setting a very high bar, and, for now, I’m not sure Alyx clears it. The game is fighting VR’s inherent hardware limits, a pandemic-related headset shortage, and the difficulty of building a game for a new platform. While it’s about as long as the landmark Half-Life 2, with my game clocking in at 15 hours, it doesn’t feel as big or as narratively and mechanically fresh. It advances the series’s main plot, but it doesn’t come close to resolving it.
 
@@ -125,7 +125,7 @@ API: https://loripsum.net, https://corporatelorem.kovah.de, https://devlorem.kov
 
 Endpoint: `/testimonial`
 
-Example: https://needrandom.netlify.app/api/testimonial
+Example: https://needdummy.netlify.app/api/testimonial
 ```
 [
   {
@@ -149,7 +149,7 @@ API: https://testimonialapi.toolcarton.com
 
 Endpoint: `/quote`
 
-Example: https://needrandom.netlify.app/api/quote
+Example: https://needdummy.netlify.app/api/quote
 ```
 It's easier to resist at the beginning than at the end.
 ```
