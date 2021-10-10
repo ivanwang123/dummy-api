@@ -1,6 +1,6 @@
 # Dummy API 🎲
 
-All your dummy-data needs in one API
+All your dummy data needs in one API
 
 Base URL: https://needrandom.netlify.app/api
 
