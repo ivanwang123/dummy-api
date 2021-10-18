@@ -13,9 +13,9 @@ Parameters:
 - `width` - number *(default: 100)*
 - `height` - number *(default: 100)*
 
-Example Endpoint: https://needdummy.netlify.app/api/image?width=200&height=300
+Example: https://needdummy.netlify.app/api/image?width=200&height=300
 
-Example Result:
+Result:
 ```
 https://picsum.photos/200/300
 ```
@@ -31,6 +31,8 @@ Parameters:
 - `sprite` - male, female, human, identicon, initials, bottts, avataaars, jdenticon, gridy, micah *(default: human)*
 
 Example: https://needdummy.netlify.app/api/profilepic?sprite=identicon
+
+Result:
 ```
 https://avatars.dicebear.com/api/identicon/98.svg
 ```
@@ -43,6 +45,7 @@ Endpoint: `/user`
 
 Example: https://needdummy.netlify.app/api/user
 
+Result:
 ```
 {
   "gender": "female",
@@ -115,6 +118,8 @@ Parameters:
 - `length` *(only for style=lorem)* - short, medium, long, verylong *(default: short)*
 
 Example: https://needdummy.netlify.app/api/text?style=article&paragraphs=2
+
+Result:
 ```
 That’s setting a very high bar, and, for now, I’m not sure Alyx clears it. The game is fighting VR’s inherent hardware limits, a pandemic-related headset shortage, and the difficulty of building a game for a new platform. While it’s about as long as the landmark Half-Life 2, with my game clocking in at 15 hours, it doesn’t feel as big or as narratively and mechanically fresh. It advances the series’s main plot, but it doesn’t come close to resolving it.
 
@@ -128,6 +133,8 @@ API: https://loripsum.net, https://corporatelorem.kovah.de, https://devlorem.kov
 Endpoint: `/testimonial`
 
 Example: https://needdummy.netlify.app/api/testimonial
+
+Result:
 ```
 [
   {
@@ -152,6 +159,8 @@ API: https://testimonialapi.toolcarton.com
 Endpoint: `/quote`
 
 Example: https://needdummy.netlify.app/api/quote
+
+Result:
 ```
 It's easier to resist at the beginning than at the end.
 ```
