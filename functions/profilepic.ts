@@ -1,6 +1,6 @@
 import { Handler } from "@netlify/functions";
-import { optionalParam } from "utils/param";
 import randomstring from "randomstring";
+import { optionalParam } from "utils/param";
 
 const sprites = [
   "male",
@@ -34,6 +34,11 @@ const handler: Handler = async (e) => {
     return {
       statusCode: 500,
       body: e.message,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Methods": "GET, POST, OPTION",
+      },
     };
   }
 };
