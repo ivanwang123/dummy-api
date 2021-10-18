@@ -29,6 +29,11 @@ const handler: Handler = async (e) => {
     return {
       statusCode: 200,
       body: `https://avatars.dicebear.com/api/${sprite}/${seed}.svg`,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Methods": "GET, POST, OPTION",
+      },
     };
   } catch (e: any) {
     return {
