@@ -13,7 +13,9 @@ Parameters:
 - `width` - number *(default: 100)*
 - `height` - number *(default: 100)*
 
-Example: https://needdummy.netlify.app/api/image?width=200&height=300
+Example Endpoint: https://needdummy.netlify.app/api/image?width=200&height=300
+
+Example Result:
 ```
 https://picsum.photos/200/300
 ```
