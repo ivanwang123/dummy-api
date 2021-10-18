@@ -67,11 +67,21 @@ const handler: Handler = async (e) => {
     return {
       statusCode: 200,
       body: res,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Methods": "GET, POST, OPTION",
+      },
     };
   } catch (e: any) {
     return {
       statusCode: 500,
       body: e.message,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Methods": "GET, POST, OPTION",
+      },
     };
   }
 };
